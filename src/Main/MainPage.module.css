@@ -1,0 +1,31 @@
+.MainPage {
+  position: relative;
+  background-color: #121b27;
+  width: 100vw;
+  height: 140vh;
+}
+
+.text {
+  position: relative;
+  color: #ffffff;
+
+  width: 65%;
+  text-align: center;
+  margin: auto;
+  padding-top: 6rem;
+}
+
+.text h2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.text h2 span {
+  color: #a75fd2;
+}
+
+.text p {
+  font-size: 1.2rem;
+  width: 92%;
+  margin: auto;
+}

@@ -1,0 +1,64 @@
+.UiMain {
+  position: relative;
+}
+.UiMain div {
+  position: absolute;
+}
+
+.firstCircle {
+  width: 6rem;
+  height: 6rem;
+  left: 70%;
+  top: 0;
+  border-radius: 100%;
+  background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
+  box-shadow: inset 1.02px 2.04px 51px #001d6e;
+  z-index: 10;
+}
+
+.secondCircle {
+  width: 10rem;
+  height: 10rem;
+  left: 5%;
+  top: 105px;
+  border-radius: 100%;
+  background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
+  box-shadow: inset 2px 4px 100px #001d6e;
+  z-index: 10;
+}
+
+.thirdCircle {
+  right: -7%;
+  height: 20rem;
+  width: 20rem;
+  top: 15rem;
+  border-radius: 100%;
+  background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
+  box-shadow: inset 4px 8px 200px #001d6e;
+  filter: blur(15px);
+  overflow: hidden;
+}
+
+.firstStar {
+  top: 3rem;
+  left: 30%;
+}
+.secondStar {
+  right: 15rem;
+  top: 10rem;
+}
+
+.thirdStar {
+  left: 13%;
+  top: 40rem;
+}
+
+.fourthStar {
+  right: 6%;
+  top: 37rem;
+}
+
+.arrow {
+  top: 23rem;
+  right: 24%;
+}
