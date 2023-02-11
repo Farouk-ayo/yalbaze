@@ -7,6 +7,7 @@ const Header = () => {
       <div className={classes.logo}>
         <img src={logo} alt="" />
       </div>
+
       <button>Get Priority Access</button>
     </section>
   );

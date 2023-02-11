@@ -3,12 +3,12 @@ import star1 from "../assets/Star 1.png";
 import star2 from "../assets/Star 2.png";
 import star3 from "../assets/Star 3.png";
 import star4 from "../assets/Star 4.png";
-// import line from "../assets/Line 6.png";
+
 import arrow from "../assets/Vectorline.png";
 
 const UiMain = () => {
   return (
-    <section className={classes.UiMain}>
+    <section className={classes.Ui}>
       <div className={classes.firstCircle}></div>
       <div className={classes.secondCircle}></div>
       <div className={classes.thirdCircle}></div>

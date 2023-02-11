@@ -14,12 +14,15 @@
 } */
 
 .header button {
-  padding: 0.5rem 1rem;
+  position: relative;
+  padding: 0.5rem 1.4rem;
   border-radius: 2rem;
-  border: 0.1rem solid #ba2ad1;
   color: white;
-  font-size: 1.3rem;
-  background-color: transparent;
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 700;
+  background: linear-gradient(#121b27, #121b27) padding-box,
+    linear-gradient(112.92deg, #5404ff 18.35%, rgba(189, 59, 210, 0.94) 71.49%)
+      border-box;
+  border: 0.1rem solid transparent;
 }
-
-/* background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%); */
