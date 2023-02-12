@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 const Main = () => {
   return (
     <section className={classes.main}>
+      <Header />
       <MainPage />
       <Footer />
     </section>
