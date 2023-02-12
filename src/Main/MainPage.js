@@ -2,8 +2,15 @@ import UiMain from "../UI/UiMain";
 import classes from "./MainPage.module.css";
 import profilecircle from "../assets/profilecircle.png";
 import mail from "../assets/mail-01.png";
+import { useState } from "react";
 
 const MainPage = () => {
+  const [animation, showAnimate] = useState(false);
+
+  const animate = () => {
+    showAnimate(!animation);
+  };
+
   return (
     <section className={classes.MainPage}>
       <UiMain />
@@ -35,7 +42,12 @@ const MainPage = () => {
             />
           </div>
         </div>
-        <button>Get early access</button>
+        <button
+          onClick={animate}
+          className={animation ? classes.animate : null}
+        >
+          Get early access
+        </button>
         <div className={classes.info}>
           <div className={classes.circles}>
             <span className={classes.g}>G</span>
