@@ -128,6 +128,10 @@ footer {
   gap: 1rem;
   width: calc(100% / 3);
 }
+.address img {
+  height: 2rem;
+  width: 2rem;
+}
 
 .address address {
   width: 70%;
@@ -136,10 +140,13 @@ footer {
 
 footer p {
   width: calc(100% / 3);
+  margin-right: 0;
+  text-align: center;
 }
 
 .phone {
   display: flex;
   gap: 1rem;
   width: calc(100% / 3);
+  justify-content: end;
 }
