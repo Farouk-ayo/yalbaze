@@ -3,12 +3,22 @@ import classes from "./MainPage.module.css";
 import profilecircle from "../assets/profilecircle.png";
 import mail from "../assets/mail-01.png";
 import { useState } from "react";
+import Popup from "../Popup/Popup";
+import Overlay from "../Popup/Overlay";
 
 const MainPage = () => {
   const [animation, showAnimate] = useState(false);
+  const [popup, setpopup] = useState(false);
 
-  const animate = () => {
+  const closePopup = () => {
+    setpopup(false);
+    console.log("yes");
+  };
+
+  const animate = (e) => {
     showAnimate(!animation);
+    setpopup(true);
+    e.preventDefault();
   };
 
   return (
@@ -60,6 +70,8 @@ const MainPage = () => {
           </div>
         </div>
       </form>
+      {popup ? <Popup /> : null}
+      {popup ? <Overlay onClick={closePopup} /> : null}
     </section>
   );
 };
