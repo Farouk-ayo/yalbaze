@@ -38,6 +38,7 @@ const Footer = () => {
                 <option value="">Finland</option>
               </select>
               <textarea
+              
                 name=""
                 id=""
                 cols="30"
