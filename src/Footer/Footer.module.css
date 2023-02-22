@@ -90,16 +90,19 @@
 }
 
 .input .mssg {
-  resize: none;
   height: 10rem;
   border: none;
   border-radius: 0.5rem;
   background-color: #1d2939;
   border: 0.1rem solid rgba(255, 255, 255, 0.538);
-}
-.input .mssg::placeholder {
-  padding: 0.7rem;
+  resize: none;
+  outline: none;
+  padding: 0.7rem 1rem;
   color: white;
+}
+.input .mssg:active,
+.mssg:focus {
+  border: 0.12rem solid #5404ff;
 }
 
 .input button {

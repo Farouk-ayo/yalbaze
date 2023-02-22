@@ -5,6 +5,14 @@
 .Ui div {
   position: absolute;
 }
+@keyframes rotation {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.1) rotate(360deg);
+  }
+}
 
 .firstCircle {
   width: 6rem;
@@ -15,6 +23,7 @@
   background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
   box-shadow: inset 1.02px 2.04px 51px #001d6e;
   z-index: 10;
+  animation: rotation 3s alternate-reverse infinite;
 }
 
 .secondCircle {
@@ -26,8 +35,8 @@
   background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
   box-shadow: inset 2px 4px 100px #001d6e;
   z-index: 10;
+  animation: rotation 3s alternate-reverse infinite;
 }
-
 
 .thirdCircle {
   right: -7%;
@@ -39,25 +48,32 @@
   box-shadow: inset 4px 8px 200px #001d6e;
   filter: blur(15px);
   overflow: hidden;
+  animation: rotation 3s alternate-reverse infinite;
 }
 
 .firstStar {
   top: 3rem;
   left: 30%;
+  animation: rotation 5s infinite;
 }
 .secondStar {
   right: 15rem;
   top: 10rem;
+  animation: rotation 5s 2s infinite;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
 }
 
 .thirdStar {
   left: 13%;
   top: 40rem;
+  animation: rotation 5s 3s infinite;
 }
 
 .fourthStar {
   right: 6%;
   top: 37rem;
+  animation: rotation 5s 5s infinite;
 }
 
 .arrow {
@@ -74,29 +90,35 @@
   border-radius: 100%;
   background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
   box-shadow: inset 1.02px 2.04px 51px #001d6e;
+  animation: rotation 3s alternate-reverse infinite;
 }
 
 .blueStar1 {
   right: 10%;
   top: 3rem;
+  animation: rotation 7s infinite;
 }
 
 .blueStar2 {
   left: 40%;
   top: 8rem;
+  animation: rotation 7s infinite;
 }
 
 .fifthStar {
   top: 15rem;
   left: 30%;
+  animation: rotation 7s infinite;
 }
 .sixthStar {
   top: 36.5rem;
   left: 40%;
+  animation: rotation 7s 5s alternate-reverse infinite;
 }
 .seventhStar {
   right: 9%;
   top: 51.5rem;
+  animation: rotation 7s 2s alternate-reverse infinite;
 }
 
 .line {
