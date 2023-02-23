@@ -152,5 +152,5 @@ footer p {
   display: flex;
   gap: 1rem;
   width: calc(100% / 3);
-  justify-content: end;
+  justify-content: flex-end;
 }
