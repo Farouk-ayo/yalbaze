@@ -60,8 +60,6 @@
   right: 15rem;
   top: 10rem;
   animation: rotation 5s 2s infinite;
-  animation: name duration timing-function delay iteration-count direction
-    fill-mode;
 }
 
 .thirdStar {
