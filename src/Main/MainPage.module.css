@@ -41,6 +41,11 @@ form {
   margin: auto;
   margin-top: 2rem;
 }
+@media only screen and (max-width: 900px) {
+  form {
+    width: 40%;
+  }
+}
 
 .details {
   display: flex;

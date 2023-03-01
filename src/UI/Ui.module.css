@@ -78,6 +78,11 @@
   top: 23rem;
   right: 24%;
 }
+@media only screen and (max-width: 1085px) {
+  .arrow {
+    top: 30rem;
+  }
+}
 
 /* footer  */
 .fifthCircle {
@@ -90,6 +95,13 @@
   box-shadow: inset 1.02px 2.04px 51px #001d6e;
   animation: rotation 3s alternate-reverse infinite;
 }
+/* @media only screen and (max-width: 1200px) {
+  .fifthCircle {
+    width: 4rem;
+    height: 4rem;
+    
+  }
+} */
 
 .blueStar1 {
   right: 10%;
@@ -120,6 +132,17 @@
 }
 
 .line {
-  top: 22.5rem;
+  top: 23.5rem;
   left: 18%;
+}
+@media only screen and (max-width: 1300px) {
+  .line {
+    top: 24rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .line {
+    top: 23rem;
+    left: 14%;
+  }
 }
