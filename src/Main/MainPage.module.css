@@ -8,7 +8,6 @@
 .text {
   position: relative;
   color: #ffffff;
-
   width: 65%;
   text-align: center;
   margin: auto;
@@ -21,6 +20,11 @@
 .text h4 {
   font-size: 4rem;
   font-weight: 900;
+}
+@media only screen and (max-width: 800px) {
+  .text h4 {
+    font-size: 3rem;
+  }
 }
 
 .text h4 span {
@@ -44,6 +48,11 @@ form {
 @media only screen and (max-width: 900px) {
   form {
     width: 40%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  form {
+    width: 60%;
   }
 }
 

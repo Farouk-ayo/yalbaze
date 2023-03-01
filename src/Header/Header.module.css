@@ -7,6 +7,12 @@
   background-color: #121b27;
   align-items: center;
 }
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 0 2rem;
+    padding-top: 2rem;
+  }
+}
 
 .header button {
   position: relative;
@@ -20,4 +26,10 @@
     linear-gradient(112.92deg, #5404ff 18.35%, rgba(189, 59, 210, 0.94) 71.49%)
       border-box;
   border: 0.1rem solid transparent;
+}
+
+@media only screen and (max-width: 750px) {
+  .logo img {
+    height: 3rem;
+  }
 }

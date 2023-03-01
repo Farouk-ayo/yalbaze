@@ -25,6 +25,17 @@
   z-index: 10;
   animation: rotation 3s alternate-reverse infinite;
 }
+@media only screen and (max-width: 800px) {
+  .firstCircle {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .firstCircle {
+    top: 1rem;
+  }
+}
 
 .secondCircle {
   width: 10rem;
@@ -37,7 +48,17 @@
   z-index: 10;
   animation: rotation 3s alternate-reverse infinite;
 }
-
+@media only screen and (max-width: 800px) {
+  .secondCircle {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .secondCircle {
+    left: 1%;
+  }
+}
 .thirdCircle {
   right: -7%;
   height: 20rem;
@@ -50,16 +71,32 @@
   overflow: hidden;
   animation: rotation 3s alternate-reverse infinite;
 }
-
+@media only screen and (max-width: 900px) {
+  .thirdCircle {
+    right: -15%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .thirdCircle {
+    width: 15rem;
+    height: 15rem;
+  }
+}
 .firstStar {
   top: 3rem;
   left: 30%;
   animation: rotation 5s infinite;
 }
 .secondStar {
-  right: 15rem;
+  right: 15%;
   top: 10rem;
   animation: rotation 5s 2s infinite;
+}
+
+@media only screen and (max-width: 900px) {
+  .line {
+    right: 10%;
+  }
 }
 
 .thirdStar {
@@ -67,13 +104,40 @@
   top: 40rem;
   animation: rotation 5s 3s infinite;
 }
+@media only screen and (max-width: 800px) {
+  .thirdStar {
+    left: 2%;
+    top: 40rem;
+  }
+}
 
 .fourthStar {
   right: 6%;
   top: 37rem;
   animation: rotation 5s 5s infinite;
 }
-
+@media only screen and (max-width: 650px) {
+  .fourthStar {
+    top: 46rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .fourthStar {
+    right: 2%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .fourthStar {
+    top: 50rem;
+    right: 2%;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .fourthStar {
+    top: 40rem;
+    right: 2%;
+  }
+}
 .arrow {
   top: 23rem;
   right: 24%;
@@ -83,7 +147,49 @@
     top: 30rem;
   }
 }
-
+@media only screen and (max-width: 900px) {
+  .arrow {
+    top: 32rem;
+    right: 17%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .arrow {
+    top: 32rem;
+    right: 15%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .arrow {
+    top: 35rem;
+    right: 10%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .arrow {
+    top: 35rem;
+    right: 10%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .arrow {
+    top: 40rem;
+    right: 0%;
+    transform: rotate(120deg);
+  }
+}
+@media only screen and (max-width: 490px) {
+  .arrow {
+    top: 48rem;
+    right: 10%;
+    transform: rotate(120deg);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .arrow {
+    display: none;
+  }
+}
 /* footer  */
 .fifthCircle {
   width: 6rem;
@@ -95,13 +201,6 @@
   box-shadow: inset 1.02px 2.04px 51px #001d6e;
   animation: rotation 3s alternate-reverse infinite;
 }
-/* @media only screen and (max-width: 1200px) {
-  .fifthCircle {
-    width: 4rem;
-    height: 4rem;
-    
-  }
-} */
 
 .blueStar1 {
   right: 10%;
@@ -142,7 +241,12 @@
 }
 @media only screen and (max-width: 1200px) {
   .line {
-    top: 23rem;
-    left: 14%;
+    top: 23.5rem;
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 933px) {
+  .line {
+    top: 22.5rem;
   }
 }
