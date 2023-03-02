@@ -190,6 +190,7 @@
     display: none;
   }
 }
+
 /* footer  */
 .fifthCircle {
   width: 6rem;
@@ -219,15 +220,30 @@
   left: 30%;
   animation: rotation 7s infinite;
 }
+@media only screen and (max-width: 700px) {
+  .fifthStar {
+    display: none;
+  }
+}
 .sixthStar {
   top: 36.5rem;
   left: 40%;
   animation: rotation 7s 5s alternate-reverse infinite;
 }
+@media only screen and (max-width: 700px) {
+  .sixthStar {
+    left: 2%;
+  }
+}
 .seventhStar {
   right: 9%;
   top: 53rem;
   animation: rotation 7s 2s alternate-reverse infinite;
+}
+@media only screen and (max-width: 700px) {
+  .seventhStar {
+    right: 4%;
+  }
 }
 
 .line {
@@ -248,5 +264,12 @@
 @media only screen and (max-width: 933px) {
   .line {
     top: 22.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .line {
+    top: 14.5rem;
+    left: 2rem;
   }
 }
